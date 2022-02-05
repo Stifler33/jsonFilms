@@ -1,0 +1,39 @@
+name: "Back to the Future"
+country: "USA"
+date_creation: "03.07.1985"
+studios: "Universal"
+Scenario: "Robert Zemekis" , "Bob Gale"
+Director: "Robert Zemeckis"
+Producer: "Neil Canton", "Bob Gale", "Kathleen Kennedy", "Frank Marshall", "Steven Spielberg"
+actors:
+{
+    Marty_McFly: "Michael J. Fox"
+    "Dr._Emmett_Brown", "Christopher Lloyd"
+    "Lorraine_Baines", "Lea Thompson"
+    "Biff_Tannen", "Thomas F. Wilson"
+}
+
+{
+    "Director": "Robert Zemeckis",
+    "Producer": [
+        "Neil Canton",
+        "Bob Gale",
+        "Kathleen Kennedy",
+        "Frank Marshall",
+        "Steven Spielberg"
+    ],
+    "Scenario": [
+        "Robert Zemekis",
+        "Bob Gale"
+    ],
+    "actors": {
+        "Biff_Tannen": "Thomas F. Wilson",
+        "Dr._Emmett_Brown": "Christopher Lloyd",
+        "Lorraine_Baines": "Lea Thompson",
+        "Marty_McFly": "Michael J. Fox"
+    },
+    "country": "USA",
+    "date_creation": "03.07.1985",
+    "name": "Back to the Future",
+    "studios": "Universal"
+}
