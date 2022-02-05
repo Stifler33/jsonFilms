@@ -4,18 +4,23 @@
 int main() {
     using json = nlohmann::json;
     json info;
-    std::ofstream file ("infoFilms.txt");
-    info["name"] = "Back to the Future";
+    std::ofstream file ("..\\film\\main_character.json");
+    if (!file.is_open()){
+        std::cout << "non file\n";
+        return 0;
+    }
+    info["name"] = "Main character";
     info["country"] = "USA";
-    info["date_creation"] = "03.07.1985";
-    info["studios"] = "Universal";
-    info["Scenario"] = {"Robert Zemekis", "Bob Gale"};
-    info["Director"] = "Robert Zemeckis";
-    info["Producer"] = {"Neil Canton", "Bob Gale", "Kathleen Kennedy", "Frank Marshall", "Steven Spielberg"};
-    info["actors"] = {{"Marty_McFly", "Michael J. Fox"},
-                      {"Dr._Emmett_Brown", "Christopher Lloyd"},
-                      {"Lorraine_Baines", "Lea Thompson"},
-                      {"Biff_Tannen", "Thomas F. Wilson"}
+    info["date_creation"] = "10.08.2021";
+    info["studios"] = "20th Century Fox";
+    info["Scenario"] = {"Matt Lieberman" , "Zak Penn"};
+    info["Director"] = "Shawn Levy";
+    info["Producer"] = {"Greg Berlanti", "Dan Cohen", "Ryan Reynolds"};
+    info["actors"] = {{"Guy", "Ryan Reynolds"},
+                      {"Millie / Molotovgirl", "Jodie Comer"},
+                      {"Buddy", "Lil Rel Howery"},
+                      {"Antwan", "Taika Waititi"},
+                              {"Revenjamin Buttons", "Channing Tatum"}
     };
     file << info;
     std::cout << info.dump(4) << std::endl;
