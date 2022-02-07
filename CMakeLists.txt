@@ -14,5 +14,5 @@ if(NOT json_POPULATED)
     add_subdirectory(${json_SOURCE_DIR} ${json_BINARY_DIR} EXCLUDE_FROM_ALL)
 endif()
 
-add_executable(32 main.cpp)
+add_executable(32 task2.cpp)
 target_link_libraries(32 PRIVATE nlohmann_json::nlohmann_json)

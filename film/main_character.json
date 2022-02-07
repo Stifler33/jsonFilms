@@ -1,1 +1,15 @@
-{"Director":"Shawn Levy","Producer":["Greg Berlanti","Dan Cohen","Ryan Reynolds"],"Scenario":["Matt Lieberman","Zak Penn"],"actors":{"Antwan":"Taika Waititi","Buddy":"Lil Rel Howery","Guy":"Ryan Reynolds","Millie / Molotovgirl":"Jodie Comer","Revenjamin Buttons":"Channing Tatum"},"country":"USA","date_creation":"10.08.2021","name":"Main character","studios":"20th Century Fox"}
+{"Director":"Shawn Levy",
+  "Producer":["Greg Berlanti","Dan Cohen","Ryan Reynolds"],
+  "Scenario":["Matt Lieberman","Zak Penn"],
+  "actors":
+  {
+    "Taika Waititi":"Antwan",
+    "Lil Rel Howery":"Buddy",
+    "Ryan Reynolds":"Guy",
+    "Jodie Comer":"Millie / Molotovgirl",
+    "Channing Tatum":"Revenjamin Buttons"
+  },
+  "country":"USA","date_creation":"10.08.2021",
+  "name":"Main character",
+  "studios":"20th Century Fox"
+}

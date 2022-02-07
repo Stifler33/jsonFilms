@@ -1,1 +1,15 @@
-{"Director":"Denis Villeneuve","Producer":["Denis Villeneuve","Mary Parent","Cale Boyter","Joseph M. Caracciolo Jr."],"Scenario":["John Spaites","Denis Villeneuve"],"actors":{"Chani":"Zendaya","Duke Leto Atreides":"Oscar Isaac","Duncan Idaho":"Jason Momoa","Lady Jessica Atreides":"Rebecca Ferguson","Paul Atreides":"Timothée Chalamet"},"country":"USA","date_creation":"03.09.2021","name":"dune","studios":"Legendary Pictures"}
+{"Director":"Denis Villeneuve",
+  "Producer":["Denis Villeneuve","Mary Parent","Cale Boyter","Joseph M. Caracciolo Jr."],
+  "Scenario":["John Spaites","Denis Villeneuve"],
+  "actors":
+  { "Zendaya":"Chani",
+    "Oscar Isaac":"Duke Leto Atreides",
+    "Jason Momoa":"Duncan Idaho",
+    "Rebecca Ferguson":"Lady Jessica Atreides",
+    "Timothe Chalamet":"Paul Atreides"
+  },
+  "country":"USA",
+  "date_creation":"03.09.2021",
+  "name":"dune",
+  "studios":"Legendary Pictures"
+}

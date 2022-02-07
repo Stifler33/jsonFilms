@@ -1,10 +1,11 @@
 #include <iostream>
 #include "nlohmann/json.hpp"
 #include <fstream>
+#include <map>
 int main() {
     using json = nlohmann::json;
     json info;
-    std::ofstream file ("..\\film\\main_character.json");
+    std::ifstream file ("..\\film\\test.json");
     if (!file.is_open()){
         std::cout << "non file\n";
         return 0;
@@ -16,13 +17,14 @@ int main() {
     info["Scenario"] = {"Matt Lieberman" , "Zak Penn"};
     info["Director"] = "Shawn Levy";
     info["Producer"] = {"Greg Berlanti", "Dan Cohen", "Ryan Reynolds"};
-    info["actors"] = {{"Guy", "Ryan Reynolds"},
-                      {"Millie / Molotovgirl", "Jodie Comer"},
-                      {"Buddy", "Lil Rel Howery"},
-                      {"Antwan", "Taika Waititi"},
-                              {"Revenjamin Buttons", "Channing Tatum"}
+    info["actors"] = {//{"Guy", "Ryan Reynolds"},
+                      //{"Millie / Molotovgirl", "Jodie Comer"},
+                      {"one", std::pair<std::string, std::string> {{"Guy"}, {"Ryan Reynolds"}}},
+                      {"two", std::pair<std::string, std::string> {{"Millie / Molotovgirl"}, {"Jodie Comer"}}}
     };
-    file << info;
-    std::cout << info.dump(4) << std::endl;
+    //file >> info;
+    std::pair<std::string, std::string> i = info["actors"]["one"];
+    std::cout << i.first;
+    //std::cout << info.dump(4) << std::endl;
     return 0;
 }

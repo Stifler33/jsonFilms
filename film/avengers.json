@@ -1,1 +1,16 @@
-{"Director":"Joss Whedon","Producer":["Kevin Feige","Victoria Alonso","Louis D'Esposito"],"Scenario":["Joss Whedon","Zak Penn"],"actors":{"Tony Stark / Iron Man":"Robert Downey Jr.","Bruce Banner / The Hulk":"Mark Ruffalo","Natasha Romanoff / Black Widow":"Scarlett Johansson","Steve Rogers / Captain America":"Chris Evans","Thor":"Chris Hemsworth"},"country":"USA","date_creation":"11.04.2012","name":"Avengers","studios":"Marvel studios"}
+{"Director":"Joss Whedon",
+  "Producer":["Kevin Feige","Victoria Alonso","Louis D'Esposito"],
+  "Scenario":["Joss Whedon","Zak Penn"],
+  "actors":
+  {
+    "Robert Downey Jr.":"Tony Stark / Iron Man",
+    "Mark Ruffalo":"Bruce Banner / The Hulk",
+    "Scarlett Johansson":"Natasha Romanoff / Black Widow",
+    "Chris Evans":"Steve Rogers / Captain America",
+    "Chris Hemsworth":"Thor"
+  },
+  "country":"USA",
+  "date_creation":"11.04.2012",
+  "name":"Avengers",
+  "studios":"Marvel studios"
+}
