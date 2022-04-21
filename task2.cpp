@@ -16,7 +16,7 @@ public:
                 cout << "fine no open\n";
             }else{
                 string nameFilm;
-                int start = i.rfind('\\', i.size()) + 1;
+                int start = i.rfind('/', i.size()) + 1;
                 int end = i.find('.', start);
                 int count = end - start;
                 nameFilm = i.substr(start, count);
@@ -40,11 +40,11 @@ public:
     }
 };
 int main(){
-    vector<string> path = {"..\\film\\dune.json",
-                           "..\\film\\avengers.json",
-                           "..\\film\\back_to_the_future.json",
-                           "..\\film\\main_character.json",
-                           "..\\film\\iron_man.json"};
+    vector<string> path = {"../film/dune.json",
+                           "../film/avengers.json",
+                           "../film/back_to_the_future.json",
+                           "../film/main_character.json",
+                           "../film/iron_man.json"};
     InfoFilm archive(path);
     archive.searchActors("Thomas F. Wilson");
     return 0;
