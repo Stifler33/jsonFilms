@@ -27,9 +27,6 @@ public:
             file.close();
         }
     }
-    map<string, json>& getArchive(){
-        return archive;
-    }
     void searchActors(string _name){
         for (auto film : archive){
             if (auto actr = film.second["actors"].find(_name); actr != film.second["actors"].end()){
@@ -46,7 +43,7 @@ int main(){
                            "../film/main_character.json",
                            "../film/iron_man.json"};
     InfoFilm archive(path);
-    archive.searchActors("Thomas F. Wilson");
+    archive.searchActors("Jon Favreau");
     return 0;
 }
 
